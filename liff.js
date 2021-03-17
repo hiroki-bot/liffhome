@@ -19,11 +19,11 @@ function initializeLiff(liffId) {
 }
 
 function sendText(text) {
-    // sendMessages(text);
-// }
+     sendMessages(text);
+ }
 
 // LINEトーク画面上でメッセージ送信
-// function sendMessages(text) {
+ function sendMessages(text) {
     liff.sendMessages([{
         'type': 'text',
         'text': text
